@@ -46,8 +46,8 @@ function App() {
                     <div className="contact-card">
                         <div className="contact-icons">
                             <a href="tel:7043886223" className="contact-icon" title="Call Us"><Phone size={32} /></a>
-                            <a href="mailto:247funfactory@gmail.com" className="contact-icon" title="Email Us"><Mail size={32} /></a>
                         </div>
+                        <a href="mailto:247funfactory@gmail.com" className="email-bold">247funfactory@gmail.com</a>
                         <div className={`restricted-notice ${showRestricted ? 'visible' : ''}`}>
                             <Lock size={12} style={{ display: 'inline', marginRight: '5px' }} />
                             Access Denied. Contact us for verification.
@@ -56,7 +56,14 @@ function App() {
                 </main>
 
                 <footer>
-                    &copy; {new Date().getFullYear()} 247 FunFactory. All Rights Reserved. Private Club.
+                    <div className="footer-content">
+                        <div className="footer-links">
+                            <a href="#" className="footer-link" onClick={handleRestrictedClick}>Privacy Policy</a>
+                            <a href="#" className="footer-link" onClick={handleRestrictedClick}>Terms of Service</a>
+                            <a href="#" className="footer-link" onClick={handleRestrictedClick}>Join the Waitlist</a>
+                        </div>
+                        <p>&copy; {new Date().getFullYear()} 247 FunFactory. All Rights Reserved. Private Club.</p>
+                    </div>
                 </footer>
             </div>
         </>

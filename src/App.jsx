@@ -45,7 +45,7 @@ function App() {
 
                     <div className="contact-card">
                         <div className="contact-icons">
-                            <a href="tel:7043886223" className="contact-icon" title="Call Us"><Phone size={32} /></a>
+                            {/* <a href="tel:7043886223" className="contact-icon" title="Call Us"><Phone size={32} /></a> */}
                         </div>
                         <a href="mailto:247funfactory@gmail.com" className="email-bold">247funfactory@gmail.com</a>
                         <div className={`restricted-notice ${showRestricted ? 'visible' : ''}`}>

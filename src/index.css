@@ -67,7 +67,7 @@ nav {
 .logo {
   font-family: 'Cinzel', serif;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 900;
   letter-spacing: 2px;
   color: #ff0000;
   /* Red color */
@@ -154,6 +154,21 @@ h1 {
 .contact-card:hover {
   transform: translateY(-5px);
   border-color: rgba(255, 255, 255, 0.3);
+}
+
+.contact-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(180deg, #fff 0%, #999 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 .contact-icons {

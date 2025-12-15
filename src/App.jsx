@@ -44,6 +44,7 @@ function App() {
                     </p>
 
                     <div className="contact-card">
+                        <h3 className="contact-heading">Gain Access Here</h3>
                         <div className="contact-icons">
                             {/* <a href="tel:7043886223" className="contact-icon" title="Call Us"><Phone size={32} /></a> */}
                         </div>

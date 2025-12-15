@@ -66,15 +66,22 @@ nav {
 
 .logo {
   font-family: 'Cinzel', serif;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 900;
-  letter-spacing: 2px;
-  color: #ff0000;
-  /* Red color */
-  font-style: italic;
-  /* Italic font */
+  letter-spacing: 3px;
+  background: linear-gradient(180deg, #ff6666 0%, #ff0000 50%, #990000 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+  text-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.4),
+    0 2px 3px rgba(0, 0, 0, 0.3),
+    0 5px 10px rgba(255, 0, 0, 0.5),
+    0 0 20px rgba(255, 0, 0, 0.4);
+  -webkit-text-stroke: 0.5px rgba(255, 0, 0, 0.8);
+  font-style: normal;
+  filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.6));
 }
 
 .nav-links {
@@ -158,8 +165,9 @@ h1 {
 
 .contact-heading {
   font-family: 'Cinzel', serif;
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
   color: white;
   margin-bottom: 2rem;
   text-transform: uppercase;

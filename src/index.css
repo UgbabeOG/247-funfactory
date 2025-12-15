@@ -290,6 +290,10 @@ footer {
     padding: 1.5rem 2rem;
   }
 
+  .logo {
+    font-size: 2rem;
+  }
+
   h1 {
     font-size: 3rem;
   }
@@ -300,6 +304,11 @@ footer {
     flex-direction: column;
     gap: 1.5rem;
     padding: 1.5rem 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
   }
 
   .nav-links {
